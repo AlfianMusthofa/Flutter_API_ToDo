@@ -98,7 +98,7 @@ class _addToDoListState extends State<addToDoList> {
     }
   }
 
-  // Read
+  // Create
   Future<void> submitData() async {
     // Get data from user
     final title = titleController.text;
